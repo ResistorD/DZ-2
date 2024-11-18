@@ -18,9 +18,9 @@ public class Main {
 
         System.out.println("Задача 2");
 
-        dog + = 4;
-        cat + = 4;
-        paper + = 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
 
         System.out.println(dog);
         System.out.println(cat);
@@ -28,9 +28,9 @@ public class Main {
 
         System.out.println("Задача 3");
 
-        dog - = 3.5;
-        cat - = 1.6;
-        paper - = 7639;
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639;
 
         System.out.println(dog);
         System.out.println(cat);
@@ -40,20 +40,20 @@ public class Main {
 
         var friend = 19;
         System.out.println(friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println(friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println(friend);
 
         System.out.println("Задача 5");
 
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println(frog);
 
         System.out.println("Задача 6");
